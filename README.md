@@ -1,19 +1,34 @@
-# Savage_Analytics_Engineer_Portfolio
-My name is Savage and I'm a full stack Analytics Engineer with expertise in leaning analytics, product analytics, and user funnel data. 
-I am adept at working with raw data, including semi-structured jsons, transforming them into usable models for business stakeholders to query, 
-and building dynamic dashboards to enable self-serve data insights for non-technical stakeholders. 
+# Savage - Analytics Engineer Portfolio
+Hi, I’m Savage, a full-stack Analytics Engineer specializing in learning analytics, product analytics, and user funnel data. I have extensive experience transforming raw data—including semi-structured JSONs—into business-ready models and building dynamic dashboards to enable self-serve insights for non-technical stakeholders.
 
-My career path has been fairly non-traditional: I've been a Middle School English Teacher, Account Executive at an educational testing company, 
-and now a Senior Analytics Engineer at 2U, an edtech company specializing in adult learning "from free to degree."
+# About Me
+My career path has been non-traditional: I started as a Middle School English Teacher, transitioned to Account Executive at an educational testing company, and am now a Senior Analytics Engineer at 2U, an edtech company specializing in adult learning "from free to degree."
 
-I have extensive experience with DBT, both cloud and core, Snowflake, and Tableau. I have also worked in Dataiku, Amplitude, Jupyter Notebooks. 
-My primary coding language is SQL, largely Snowflake SQL but I am familiar with PostgreSQL/MySQL for traditional relational database use cases.
-My Python experience is fairly specific to LLM-based text analytics but I am a quick study and adept enough to edit an existing script for a specific purpose.
-I have experience with Salesforce data, LMS data, and eventing data, have used DataGrip, VSCode, and DBT Cloud IDEs, and am not afraid to wrangle messy data.
+# 🛠️ Technical Skills
+SQL: Snowflake SQL (primary), PostgreSQL, MySQL
 
-As a lifelong learner and former teacher, education is the thing I'm most passionate about and I love using data
-to uncover solutions that drive the learning process, improve the learning experience, or make educators' lives easier, 
-from early childhood through adult professionals. I'm an avid runner and yoga practitioner, and as such am interested in
-using data to enhance the wellness space. This portfolio is a collection of various projects I've worked on both 
-independently and as a part of my employment, intended to showcase my skills and journey as a data practitioner. 
-Please feel free to reach out to me directly at sosavage@gmail.com with questions or opportunities. Enjoy!
+dbt: Cloud & Core
+
+Data Warehousing & BI: Snowflake, Tableau
+
+Python: Focused on LLM-based text analytics (adept at editing and modifying scripts)
+
+Tools: DataGrip, VSCode, dbt Cloud IDE, Jupyter Notebooks, Amplitude, Dataiku
+
+Data Experience: Salesforce, LMS, event tracking data
+
+Semi-Structured Data: JSON wrangling & transformations
+
+# 📚 The Why
+As a lifelong learner and former teacher, I am deeply passionate about leveraging data to improve the learning experience, empower educators, and enhance the educational journey. Additionally, as an avid runner and yoga practitioner, I am interested in data applications in the wellness space.
+
+# 📂 About This Portfolio
+This portfolio is a collection of projects that showcase my skills and journey as a data practitioner, including:
+✅ ETL & Data Modeling – dbt models, Snowflake transformations
+✅ Analytics Dashboards – Samples of Tableau reports
+✅ LLM-Based Text Analytics – Python-based topic modeling & sentiment analysis
+✅ Event Tracking & User Funnel Analysis – Behavioral analytics insights
+
+📩 Let’s Connect
+I’m always open to discussions about data, education, and analytics opportunities. Feel free to reach out at sosavage@gmail.com. Enjoy exploring my work!
+
