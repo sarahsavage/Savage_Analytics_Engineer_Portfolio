@@ -29,6 +29,6 @@ This portfolio is a collection of projects that showcase my skills and journey a
 ✅ LLM-Based Text Analytics – Python-based topic modeling & sentiment analysis
 ✅ Event Tracking & User Funnel Analysis – Behavioral analytics insights
 
-📩 Let’s Connect
+# 📩 Let’s Connect
 I’m always open to discussions about data, education, and analytics opportunities. Feel free to reach out at sosavage@gmail.com. Enjoy exploring my work!
 
