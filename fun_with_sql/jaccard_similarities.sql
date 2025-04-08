@@ -1,5 +1,5 @@
---this code compares the overlap of skills taught in courses to the skills needed for various jobs for the career progression experiment
---if this idea is warranted for full production, we may want to have some intermediate models created
+--this code compares the overlap of skills taught in courses to the skills needed for various jobs for a career progression experiment
+--future iterations would likely warrant staging and intermediate models
 
 with jobs_list       as
     (
@@ -18,15 +18,14 @@ with jobs_list       as
                           '.NET Developer', 'Java Developer', 'Principal Software Engineer', 'Full Stack Software Engineer',
                           'Software Development Engineer', 'Software Developer') then 'Software Engineer' end
                                                      as career_track
-               --these are the ones chosen for the initial experiment.
-               --If the experiment is successful, we will need a way to automate the career track groupings/labels
+               --limit the career dataset to a few specific progressions
+               --future iterations will need a way to automate the career track groupings/labels
              , job_title                             as name
 --generic 'name' of column name makes for a simpler union which is needed for the jaccard similarity
              , listagg(distinct skill_name, ' , ') within group (order by skill_name)
                        over (partition by job_title) as all_tagged_skills
-        from prod.core.dim_job_skill
+        from job_skill_table
         where career_track is not null
-        --limiting it to only these jobs for now
     )
 
    , course_skill    as
@@ -36,7 +35,7 @@ with jobs_list       as
 --same generic column name for union
              , listagg(distinct skill, ' , ') within group (order by skill)
                        over (partition by course_key) as all_tagged_skills
-        from prod.core.fact_job_taxonomy_course_map
+        from course_skill_table
     )
 
    , combined_tables as
@@ -48,7 +47,7 @@ with jobs_list       as
         select name
              , all_tagged_skills
         from course_skill
---this combines all jobs and course_keys into one column and the comma separated list of skills for each into another
+--this combines all jobs and course_keys into one column and the comma-separated list of skills for each into another
     )
 
    , jaccard_set     as
@@ -85,7 +84,7 @@ from jaccard_stage
      join jobs_list
           on name = name_1
 --this filters out courses being compared to courses, though this is something we may want to do in the future
-     join prod.core.dim_courses
+     join courses_table
           on name_2 = course_key
 --this filters out jobs being compared to other jobs, though this is also something we may want to do in the future
 where intersection_count > 0
@@ -96,4 +95,3 @@ order by career_track
        , job_title
        , jaccard_score desc
 --this produces a list of job titles and courses that have at least one overlapping skill, along with the jaccard score
---additional course metadata can be joined to this list to determine the 'best' courses to include in the experiment
