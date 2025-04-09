@@ -5,5 +5,5 @@ The text-based data was joined back to other qualitative metrics like course rat
 I designed the script to be as "plug and play" as possible so that it could be used with other text-based
 datasets with minimal editing. For this example, I downloaded a dataset from Kaggle comprised of YouTube
 comments and ran my script on it. In this directory, you'll find the Python notebook, a quick Tableau dash
-that I threw together as an example of how one might visualize the data, and the Tableau in the form of a 
-Powerpoint, just in case you don't have Tableau installed.
+that I threw together as an example of how one might visualize the data. Here is a link to the [slides](https://docs.google.com/presentation/d/1Ey0Azuwr7El9pQI365ziEqAk1YaIRl1Hc0RkRXvXyXc/edit?usp=sharing), just in 
+case you don't have Tableau installed.
