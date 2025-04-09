@@ -8,6 +8,6 @@ were minimal as the data was clean to start but it was based on real survey resp
 various life factors such as exercise, time spent on passion projects, and unused vacation days. The biggest takeaway for me was 
 that the single factor with the highest correlation to elevated stress levels was unused PTO. 
 
-[Link to the final slide deck] (https://docs.google.com/presentation/d/1aTmz4oPmcg-F2BwGbzTIDGaAOWBnO_x8X52yQTraNvg/edit?usp=sharing)
+[Link to the final slide deck](https://docs.google.com/presentation/d/1aTmz4oPmcg-F2BwGbzTIDGaAOWBnO_x8X52yQTraNvg/edit?usp=sharing)
 
 https://public.tableau.com/app/profile/sarah.savage/viz/TheFinancialCaseforInclusionofFemaleCharactersinFilm/TheFinancialCaseforInclusionofFemaleCharactersinFilm
