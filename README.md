@@ -23,7 +23,7 @@ Semi-Structured Data: JSON wrangling & transformations
 As a lifelong learner and former teacher, I am deeply passionate about leveraging data to improve the learning experience, empower educators, and enhance the educational journey. Additionally, as an avid runner and yoga practitioner, I am interested in data applications in the wellness space.
 
 ## 📂 About This Portfolio
-This portfolio is a collection of projects that showcase my skills and journey as a data practitioner, including:
+This portfolio is an ever-evolving work in progress designed showcase my skills and journey as a data practitioner, including:
 ✅ ETL & Data Modeling – dbt models, Snowflake transformations
 ✅ Analytics Dashboards – Samples of Tableau reports
 ✅ LLM-Based Text Analytics – Python-based topic modeling & sentiment analysis
