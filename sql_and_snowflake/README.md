@@ -10,7 +10,7 @@ jobs based on job titles in Linkedin/Indeed postings as well as public data prov
 a dataset with a few different career progressions based on title and median salary. Then, I created a data model using 
 Jaccard similarity to match up courses with relevant jobs based on similarity.
 
-The final state of this project would be to create a recommender engine so that a user can search for a specific
+The final state of this project would be to create a recommender engine which would allow a user to search for a specific
 job title or career path and see what courses will best prepare them for that job. A future iteration might be to 
 allow users to create a portfolio of skills they already have and skills learned from successful completion of courses
 and then run a gap analysis between their current skillset and what is required in a particular job, to recommend
