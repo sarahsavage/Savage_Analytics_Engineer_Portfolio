@@ -1,0 +1,21 @@
+name: 'edtech_sample_project'
+version: '1.0.0'
+config-version: 2
+
+model-paths: ["models"]
+seed-paths: ["seeds"]
+macro-paths: ["macros"]
+
+models:
+  edtech_sample_project:
+    staging:
+      +materialized: view
+    intermediate:
+      +materialized: view
+    marts:
+      +materialized: table
+
+seeds:
+  edtech_sample_project:
+    grade_scale:
+      file: grade_scale.csv
