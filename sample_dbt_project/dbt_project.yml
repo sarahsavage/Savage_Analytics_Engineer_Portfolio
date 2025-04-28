@@ -19,3 +19,5 @@ seeds:
   edtech_sample_project:
     grade_scale:
       file: grade_scale.csv
+
+      
